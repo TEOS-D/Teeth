@@ -1,0 +1,386 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+p,
+img {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    height: 59px;
+}
+
+.container {
+    max-width: 1150px;
+    margin-left: 150px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.logo__img {
+    width: 85px;
+    height: 42px;
+    margin: 8px 0 9px 0;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list {
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: transparent;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__list-item:hover {
+    transition: .5s;
+    border-bottom: 1px solid #0AD58C;
+}
+
+.menu__list-item:nth-child(1) {
+    margin-right: 103px;
+}
+
+.menu__list-item:nth-child(2) {
+    margin-right: 100px;
+}
+
+.menu__list-item:nth-child(3) {
+    margin-right: 59px;
+}
+
+
+.container__title {
+    max-width: 1450px;
+    margin-left: 150px;
+}
+
+section.title__inner {
+    width: 100%;
+    height: 937.22px;
+    background-image: url(../img/bgimg.png);
+}
+
+.title {
+    max-width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 112px;
+    color: #FFFFFF;
+    padding-top: 246px;
+}
+
+.title__text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.ruble__img {
+    width: 50px;
+    height: 50px;
+    margin: -7px;
+}
+
+.container__for__flex {
+    display: flex;
+
+}
+
+.request {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10%;
+    background-color: #FFFFFF;
+    margin: 125px 0 0 220px;
+    text-align: center;
+    align-items: center;
+}
+
+.form__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #626262;
+    width: 400px;
+    margin: 50px auto 5px;
+}
+
+.form__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 220px;
+    color: #9F9F9F;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin: 20px 0 5px 0;
+    width: 365px;
+    height: 76.09px;
+    border: none;
+    background: #C3C3C3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.name::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input[type="text"] {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input[type="button"] {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.phone {
+    margin: 5px 0 10px 0;
+    border: transparent;
+    width: 365px;
+    height: 76.09px;
+    background: #C3C3C3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.phone::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.order__btn {
+    margin-top: 10px;
+    width: 261.82px;
+    height: 67.07px;
+    border: none;
+    background: #0AD58C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.order__btn:hover {
+    transform: scale(1.1);
+}
+
+.all-on-4 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 600px;
+}
+
+.title-tec {
+    width: 50%;
+}
+
+.title__text_all-on-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 84px;
+    color: black;
+    width: 750px;
+    height: 186px;
+    margin-top: 90px;
+}
+
+.img_fear {
+    width: 50%;
+    margin: -1px;
+}
+
+.text__tec {
+    width: 460px;
+    height: 42px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 41px;
+    color: rgb(95, 95, 95);
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.rassrochka {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    width: 408px;
+    height: 83px;
+    background-color: #0AD58C;
+    border-radius: 100px;
+    transition: .5s;
+    padding: 21px 50px 21px 50px;
+
+}
+
+.rassrochka-link {
+
+    color: #FFFFFF;
+}
+
+.rassrochka:hover {
+    transform: scale(1.1);
+}
+
+.dantistoff__inner {
+    display: flex;
+    margin-top: 100px;
+}
+
+.dantistoff__title {
+    width: 615px;
+    height: 139px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 82px;
+    color: #000000;
+}
+
+.dantistoff__text {
+    width: 615px;
+    height: 132.48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 155.8%;
+    letter-spacing: 0.05em;
+}
+
+hr {
+    margin: 2px;
+    padding: 0;
+    color: #9F9F9F;
+}
+
+.bennifits__item {
+    width: 334px;
+    height: 26.89px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 90px;
+}
+.bennifits__item + .bennifits__item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
