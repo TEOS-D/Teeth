@@ -371,10 +371,12 @@ hr {
     padding: 0;
     color: #9F9F9F;
 }
-.benifits{
+
+.benifits {
     margin: 22px 0 0 130px;
     display: flex;
 }
+
 .bennifits__item {
     width: 400px;
     height: 26.89px;
@@ -384,17 +386,25 @@ hr {
     font-size: 23px;
     line-height: 31px;
     color: #000000;
-    list-style: none;
+    list-style: url(../img/check.svg);   
 }
-.bennifits__item + .bennifits__item{
+.inline{
+    position: relative;
+    top: -15px;
+    margin-left: 20px;
+}
+
+.bennifits__item+.bennifits__item {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.img_check{
+
+.img_check {
     width: 47px;
     height: 200px;
 }
-.check + .check{
+
+.check+.check {
     margin-top: 30px;
     margin-bottom: 30px;
 }
