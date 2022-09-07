@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: rgb(19, 41, 6);
 }
 
 *,
@@ -17,9 +18,15 @@ h2 {
     padding: 0;
 
 }
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+}
 
 .header {
     height: 59px;
+    max-width: 1920px;
 }
 
 .container {
@@ -83,7 +90,7 @@ a {
 }
 
 section.title__inner {
-    width: 100%;
+    
     height: 937.22px;
     background-image: url(../img/bgimg.png);
 }
@@ -298,7 +305,8 @@ input[type="button"] {
 
 .img_fear {
     width: 50%;
-    margin: -1px;
+    margin-top: -1px;
+    margin-left: 70px;
 }
 
 .text__tec {
@@ -407,4 +415,13 @@ hr {
 .check+.check {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .img_fear{
+        display: none;
+    }
+    .container{
+        max-width: 800px;
+    }
 }
