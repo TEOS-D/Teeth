@@ -17,7 +17,6 @@ img,
 h2 {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -287,7 +286,7 @@ input[type="button"] {
     padding: 0;
     margin: 0;
     height: 600px;
-    max-width: 1920px;
+
 }
 
 .title-tec {
@@ -309,7 +308,12 @@ input[type="button"] {
 .img_fear {
     margin-top: -1px;
     margin-left: 9px;
+    max-width: 50%;
+}
+
+.img__x-ray {
     max-width: 100%;
+    height: 602px;
 }
 
 .text__tec {
@@ -454,6 +458,11 @@ hr {
     align-items: center;
     box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
+    transition: .5s;
+}
+
+.card__price:hover {
+    transform: scale(1.1);
 }
 
 .card__price_main {
@@ -467,7 +476,10 @@ hr {
     box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
 }
-
+.title__price__inner{
+    display: flex;
+    margin: 0 auto;
+}
 .card__title {
     width: 172px;
     height: 65px;
@@ -476,8 +488,8 @@ hr {
     font-weight: 400;
     font-size: 48px;
     line-height: 65px;
-    color: #000000;
-    margin: 44px auto;
+    color: #000000; 
+    margin: 0 auto;
 }
 
 .card__text {
@@ -491,14 +503,22 @@ hr {
     text-align: left;
     margin: 20px auto;
 }
-
-.price__btn {
-    width: 340px;
-    height: 90px;
+.price__btn__inner{
+    width: 350px;
+    height: 100px;
     background: #FFFFFF;
     border-radius: 100px;
-    margin: 90px auto;
-    /* text-align: left; */
+    margin: 130px auto;
+    padding: 13px 28px;
+    transition: .5s;
+}
+.price__btn__inner:hover{
+    background-color:#0AD58C;
+}
+
+.price__btn {
+  text-align: left;
+  
 }
 
 .price__btn-link {
@@ -511,17 +531,20 @@ hr {
 }
 
 .price__btn-number {
-    width: 262px;
-    height: 48px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 34px;
     color: #0AD58C;
+    transition: .5s;
 }
-.ch{
-    width: 262px;
-    height: 48px;
-    text-align: left;
+.price__btn__inner:hover .price__btn-number {
+    color: white;
+}
+
+.card__icon{
+    width: 52px;
+    height: 52px;
+    margin-top:60px;
 }
