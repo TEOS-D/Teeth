@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Open+Sans&display=swap"
@@ -23,16 +23,16 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Оставить заявку</a>
+                            <a class="menu__list-link" href="#request">Оставить заявку</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Рассрочка</a>
+                            <a class="menu__list-link" href="#rassrochka">Рассрочка</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">All-on-4</a>
+                            <a class="menu__list-link" href="#All-on-4">All-on-4</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Цены</a>
+                            <a class="menu__list-link" href="#price">Цены</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,7 +47,7 @@
                     <P class="title__text">от 17 900<span class="ruble"><img class="ruble__img" src="img/ruble.svg"
                                 alt=""></span>/ месяц</p>
                 </div>
-                <form class="request" action="">
+                <form class="request" action="" id="request">
                     <p class="form__title">Запишитесь на прием к специалисту для
                         первичной диагностики.</p>
                     <p class="form__text">Работаем пн-пт: 09:00 - 21:00,
@@ -59,7 +59,7 @@
             </div>
         </div>
     </section>
-    <section class="all-on-4">
+    <section class="all-on-4" id="All-on-4">
         <div class="title-tec">
             <div class="container">
                 <h1 class="title__text_all-on-4">По технологии All-on-4</h1>
@@ -72,34 +72,83 @@
         <div class="img_fear">
             <img src="img/all-on-4.png" alt="">
         </div>
-
     </section>
     <hr>
-    <section class="description__rassrochka">
-        <div class="container">
-            <div class="dantistoff__inner">
-                <div class="dantistoff">
-                    <h2 class="dantistoff__title">
-                        Честная рассрочка
-                        от Дантистофф
-                    </h2>
-                    <p class="dantistoff__text">
-                        С другой стороны консультация с широким активом способствует подготовки и реализации дальнейших
-                        направлений развития. Задача организации, в особенности же рамки и место обучения кадров
-                        представляет
-                        собой интересный эксперимент проверки дальнейших направлений развития.
-                    </p>
-                </div>
-                <div class="benifits">
-                    <ul class="benifits__list">
-                        <li class="bennifits__item"><span class="inline">Без
-                            первоначального взноса</span></li>
-                        <li class="bennifits__item"><span class="inline">Проценты заплатим мы!</span></li>
-                        <li class="bennifits__item"><span class="inline">Срок
-                            рассрочки 12 месяцев</span></li>
-                    </ul>
+    <section class="description__rassrochka" id="rassrochka">
+        <div class="hr">
+            <div class="container">
+                <div class="dantistoff__inner">
+                    <div class="dantistoff">
+                        <h2 class="dantistoff__title">
+                            Честная рассрочка
+                            от Дантистофф
+                        </h2>
+                        <p class="dantistoff__text">
+                            С другой стороны консультация с широким активом способствует подготовки и реализации
+                            дальнейших
+                            направлений развития. Задача организации, в особенности же рамки и место обучения кадров
+                            представляет
+                            собой интересный эксперимент проверки дальнейших направлений развития.
+                        </p>
+                    </div>
+                    <div class="benifits">
+                        <ul class="benifits__list">
+                            <li class="bennifits__item"><span class="bennifits__li">Без
+                                    первоначального взноса</span></li>
+                            <li class="bennifits__item"><span class="bennifits__li">Проценты заплатим мы!</span></li>
+                            <li class="bennifits__item"><span class="bennifits__li">Срок
+                                    рассрочки 12 месяцев</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <hr class="hr__dantistoff">
+        </div>
+
+    </section>
+
+    <section class="price" id="price">
+        <h1 class="price__title">Цены</h1>
+        <div class="card__inner">
+            <div class="card__price">
+                <h3 class="card__title">Osstem</h3>
+                <p class="card__text">Срок службы всей конструкции 10-20 лет</p>
+                <p class="card__text">Гарантия на импланты <br> 3 года</p>
+                <p class="card__text">Имплантация за 1 день</p>
+                <p class="card__text">Бесплатная консультация</p>
+                <div class="price__btn">
+                    <a class="price__btn-link" href="#">
+                        <span class="price__btn-number">24.590</span> руб/мес* <br> В рассрочку 12 месяцев
+                    </a>
+                </div>
+            </div>
+            <div class="card__price">
+                <h3 class="card__title">Osstem</h3>
+                <p class="card__text">Срок службы всей конструкции 10-20 лет</p>
+                <p class="card__text">Гарантия на импланты <br> 3 года</p>
+                <p class="card__text">Имплантация за 1 день</p>
+                <p class="card__text">Бесплатная консультация</p>
+                <div class="price__btn">
+                    <a class="price__btn-link" href="#">
+                        <span class="price__btn-number">24.590</span> руб/мес* <br> В рассрочку 12 месяцев
+                    </a>
+                </div>
+            </div>
+            <div class="card__price">
+                <h3 class="card__title">Osstem</h3>
+                <p class="card__text">Срок службы всей конструкции 10-20 лет</p>
+                <p class="card__text">Гарантия на импланты <br> 3 года</p>
+                <p class="card__text">Имплантация за 1 день</p>
+                <p class="card__text">Бесплатная консультация</p>
+                <div class="price__btn">
+                    <div class="ch">
+                        <a class="price__btn-link" href="#">
+                            <span class="price__btn-number">24.590</span> руб/мес* <br> В рассрочку 12 месяцев
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 </body>
