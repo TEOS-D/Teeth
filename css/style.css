@@ -442,23 +442,22 @@ hr {
     font-weight: 400;
     font-size: 90px;
     line-height: 123px;
-    margin: 0 auto;
     color: #000000;
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
-    margin-bottom: 20px;
+    margin: 0 auto 30px;
 }
 
 .card__price {
     width: 390px;
-    height: 602px;
+    height: 550px;
     border: 1px solid #DDDDDD;
     border-radius: 61px;
     background: #DDDDDD;
     text-align: center;
     align-items: center;
     box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.25);
-    margin: 0 auto;
     transition: .5s;
+    margin: 0 auto;
 }
 
 .card__price:hover {
@@ -476,10 +475,11 @@ hr {
     box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
 }
-.title__price__inner{
+
+/* .title__price__inner{
     display: flex;
     margin: 0 auto;
-}
+} */
 .card__title {
     width: 172px;
     height: 65px;
@@ -488,8 +488,9 @@ hr {
     font-weight: 400;
     font-size: 48px;
     line-height: 65px;
-    color: #000000; 
-    margin: 0 auto;
+    color: #000000;
+    margin: 20px 80px 20px 80px;
+    display: flex;
 }
 
 .card__text {
@@ -503,7 +504,12 @@ hr {
     text-align: left;
     margin: 20px auto;
 }
-.price__btn__inner{
+
+.card__text:nth-child(5) {
+    margin-bottom: 90px;
+}
+
+.price__btn__inner {
     width: 350px;
     height: 100px;
     background: #FFFFFF;
@@ -512,13 +518,14 @@ hr {
     padding: 13px 28px;
     transition: .5s;
 }
-.price__btn__inner:hover{
-    background-color:#0AD58C;
+
+.price__btn__inner:hover {
+    background-color: #0AD58C;
 }
 
 .price__btn {
-  text-align: left;
-  
+    text-align: left;
+
 }
 
 .price__btn-link {
@@ -539,12 +546,31 @@ hr {
     color: #0AD58C;
     transition: .5s;
 }
+
 .price__btn__inner:hover .price__btn-number {
     color: white;
 }
 
-.card__icon{
+.card__icon {
     width: 52px;
     height: 52px;
-    margin-top:60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 150px;
+    background: #B9B9B9;
+    height: 348px;
+}
+
+.title__footer {
+    width: 702px;
+    height: 87px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #828282;
 }
