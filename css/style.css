@@ -564,13 +564,60 @@ hr {
     height: 348px;
 }
 
+.footer__inner {
+    width: 1500px;
+    margin-left: 150px;
+}
+
+.footer__block__one {
+    max-width: 50%;
+    margin-top: 80px;
+}
+
 .title__footer {
     width: 702px;
-    height: 87px;
+    /* height: 200px; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 48px;
     line-height: 59px;
     color: #828282;
+
+}
+
+.text__footer {
+    /* width: 182px; */
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: right;
+    color: #000000;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.green {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: right;
+    color: #00B876;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.oferta__inner {
+    display: flex;
+}
+
+.oferta__text {
+    margin-top: 94px;
+    margin-left: 10px;
 }
