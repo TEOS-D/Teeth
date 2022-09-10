@@ -565,8 +565,9 @@ hr {
 }
 
 .footer__inner {
-    width: 1500px;
+    max-width: 1200px;
     margin-left: 150px;
+    display: flex;
 }
 
 .footer__block__one {
@@ -620,4 +621,102 @@ hr {
 .oferta__text {
     margin-top: 94px;
     margin-left: 10px;
+}
+
+.footer__block__two{
+    margin-left: 100px;
+}
+
+.block_without_delivery {
+    display: flex;
+}
+
+.footer__contacts {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contacts__inner {
+    text-align: right;
+}
+
+.email__footer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: black;
+}
+
+.email__footer span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #828282;
+}
+
+.work__time {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+.work__time span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #828282;
+}
+
+.oplata {
+    margin: 50px 0 0 10px
+}
+
+.oplata__text {
+    width: 268px;
+    height: 24.31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #8B8B8B;
+}
+
+.footer__text {
+    width: 737px;
+    height: 25.15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #828282;
+
+}
+
+.img__footer {
+    text-align: right;
+}
+
+.img__visa-liqpay {
+    display: flex;
+    margin: 10px 0 10px 30px;
+}
+.footer__text{
+    /* padding-right: 205px; */
 }
