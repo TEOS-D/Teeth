@@ -1,4 +1,5 @@
 $(function(){
-    //2. Получить элемент, к которому необходимо добавить маску
-    $("#phone").mask("+7 (999) 999-9999");
+  $('.menu__btn').on('click', function(){
+    $('.menu__list').toggleClass('menu__list--active');
   });
+});
