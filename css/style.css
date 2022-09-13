@@ -355,6 +355,7 @@ input[type="button"] {
 .rassrochka:hover {
     transform: scale(1.1);
 }
+
 .dantistoff__inner {
     display: flex;
     margin-top: 100px;
@@ -857,20 +858,25 @@ hr {
         margin-left: 0px;
     }
 
-    .dantistoff__inner {
-        display: block;
-        max-width: 666px;
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
-    }
 }
+@media screen and (max-width: 1270px) {
 
+}
 @media screen and (max-width: 1105px) {
     .dantistoff__inner {
         display: block;
-        align-items: center;
-        text-align: center;
+    }
+
+    .dantistoff__title {
+        margin: 0 auto;
+    }
+
+    .dantistoff__text {
+        margin: 30px auto;
+    }
+
+    .benifits__list {
+        margin: 0 auto;
     }
 }
 
@@ -889,13 +895,22 @@ hr {
     .title_text {
         text-align: center;
     }
+
+}
+
+@media screen and (max-width: 650px) {
     .dantistoff__title {
-        font-size: 40px;
-    }
-    .dantistoff__text{
+        font-size: 50px;
+        text-align: left;
         width: 500px;
-        margin-left: 60px;
     }
+
+    .dantistoff__text {
+        font-size: 14px;
+        width: 470px;
+        text-align: left;
+    }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -909,6 +924,36 @@ hr {
 
     .title-tec {
         margin-left: calc(10%);
+    }
+
+    .dantistoff__title {
+        font-size: 40px;
+        text-align: left;
+        width: 300px;
+        line-height: 45px;
+        height: 120px;
+    }
+
+    .dantistoff__text {
+        font-size: 14px;
+        width: 290px;
+        text-align: left;
+        margin-bottom: 80px;
+    }
+
+    .bennifits__list{
+        align-items: left;
+        width: 10px;
+    }
+    .bennifits__li {
+        font-size: 17px;
+    }
+    .bennifits__item{
+        width: 200px;
+        text-align: center;
+    }
+    .benifits{
+        margin-left: -40px;
     }
 }
 
@@ -993,4 +1038,8 @@ hr {
         padding: 0;
         margin: 10px auto;
     }
+}
+.slick-track{
+    width: 300px;
+    height: 500px;
 }
