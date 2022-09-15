@@ -859,9 +859,17 @@ hr {
     }
 
 }
-@media screen and (max-width: 1270px) {
 
+@media screen and (max-width: 1320px) {
+    
+.price{
+    max-width: 510px;
 }
+.card__price{
+    margin: 0 5px 0 5px;
+}
+}
+
 @media screen and (max-width: 1105px) {
     .dantistoff__inner {
         display: block;
@@ -941,18 +949,21 @@ hr {
         margin-bottom: 80px;
     }
 
-    .bennifits__list{
+    .bennifits__list {
         align-items: left;
         width: 10px;
     }
+
     .bennifits__li {
         font-size: 17px;
     }
-    .bennifits__item{
+
+    .bennifits__item {
         width: 200px;
         text-align: center;
     }
-    .benifits{
+
+    .benifits {
         margin-left: -40px;
     }
 }
@@ -1039,7 +1050,19 @@ hr {
         margin: 10px auto;
     }
 }
-.slick-track{
+
+.slick-track {
     width: 300px;
     height: 500px;
+}
+
+.slick-track{
+    width: 490px;
+}
+.slick-prev, .slick-next {
+    color: red;
+}
+.slick-dots{
+    list-style:square;
+    
 }

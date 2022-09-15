@@ -16,7 +16,14 @@ $(function () {
   //     settings: 'slick'
   //   }]
   // });
-  $('.card__inner').slick({responsive: [{
-        breakpoint: 1200,
-       }]});
+  if ($(window).width() < 1320) {
+  $('.card__inner').slick({
+    centerMode: true,
+    centerPadding: '10px',
+    autoplay: true,
+    arrows: false,
+    dots: true,
+    dotsClass: 'slick-dots'
+  });
+  }
 });
